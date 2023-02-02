@@ -9,7 +9,7 @@ for line in file:
 		continue
 	newline = list(map(lambda s: s.strip(), newline))
 	lines.append(newline)
-print(lines, '\n')
+print("Printing out User Data\n")
 for line in lines:
 	if line[0][0] == '#':
 		print("{} is skipped because it starts with a hashtag (is commented out)".format(line[0]))
